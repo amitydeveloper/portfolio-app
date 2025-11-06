@@ -12,12 +12,12 @@ function Contact() {
     e.preventDefault();
 
     emailjs.sendForm(
-      "service_k2nbhyg",   
+      "service_z0b2kb4",   
       "template_29emasv",  
       e.target,
       "kQzSqavPnCWAJ2Vfw"    
     ).then(() => {
-      setMsg("✅ Message sent successfully!");
+      setMsg("Message sent successfully!");
       e.target.reset();
     }, () => {
       setMsg("Failed to send. Try again.");
