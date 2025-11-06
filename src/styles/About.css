@@ -1,0 +1,47 @@
+.about {
+  margin-left: 280px;
+  padding: 100px 50px;
+  background: #0c0c1e;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 530px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 60px;
+}    
+
+.about-text {
+  max-width: 620px;
+  margin-top: -60px;
+}
+
+.about-text h2 {
+  font-size: 45px;
+  color: #8b5cf6;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.about-text p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.about-image img {
+  margin-top: -40px;
+  width: 380px;
+  height: 630px;           
+  object-fit: cover;
+  border-radius: 90%;         
+  filter: drop-shadow(0px 6px 25px rgba(0,0,0,0.35));
+  transition: 0.4s ease;
+}
+
+.about-image img:hover {
+  transform: scale(1.03);
+}
